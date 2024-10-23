@@ -1,0 +1,62 @@
+/* body{
+    background:url('https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.square{
+    width: 200px;
+    height: 200px;
+    color:blue;
+    transition: 1s 1;
+    border: 2px solid blue;  
+    background-color: blue;
+}
+
+.square:hover{
+    width: 200px;
+    height: 200px;
+    color: aqua;
+    transform:scale(1.2s);
+    animation: square  0.1s;
+}
+
+@keyframes square{
+    0%{
+        
+        rotate:90deg;
+    }
+    25%{
+        rotate:112.2deg;
+        width: 225px;
+        height: 225px;
+    }
+    50%{
+        rotate: 135deg;
+        width: 250px;
+        height: 250px;
+    }
+    75%{
+        rotate: 157.2deg;
+        width: 275px;
+        height: 275px;
+    }
+    100%{ 
+        width: 300px;
+        height: 300px;
+        rotate:180deg;
+    }
+}
+
+.container{
+    border: 2px solid black;
+    width: 60%;
+    height: 200px;
+}
+
+.circular{
+    background-color: red;
+    border: 2px solid red;
+    width: 200px;
+    border-radius: px;
+}
+
